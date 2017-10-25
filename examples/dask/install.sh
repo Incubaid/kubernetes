@@ -1,0 +1,1 @@
+helm install --name dask -f values.yaml stable/dask
