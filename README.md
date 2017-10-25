@@ -7,7 +7,9 @@
 
 ## openvcloud
 
-see dir openvcloud
+see dir openvcloud_hosts
+
+need to add instructions how to put a kubernetes on the openvcloud
 
 ## google kubernetes instructions
 
