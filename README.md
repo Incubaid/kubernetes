@@ -5,23 +5,23 @@
 - install the required tools e.g. install_googlekube.sh ...
 - also install https://github.com/kubernetes/helm
 
-## dashboard when proxy used  
+## openvcloud
+
+see dir openvcloud
+
+## google kubernetes instructions
 
 to connect to the cluster
 ```bash
 gcloud container clusters get-credentials tf --zone europe-west1-c --project constant-carver-655
 ```
 
-to start proxy
+to start proxy (dashboard)
 ```bash
 kubectl proxy
 ```  
  
-http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/.
-
-
-## google
-
+- http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/.
 - https://console.cloud.google.com/compute/instances?project=constant-carver-655
 
 
